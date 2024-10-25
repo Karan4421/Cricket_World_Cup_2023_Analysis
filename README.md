@@ -5,12 +5,10 @@ The data for this report was gathered from ESPNcricinfo using a combination of N
 
 Web Scraping:
 
-Node.js: Utilized for initial data extraction, especially to handle dynamic web elements.
-Python (Selenium): Used for parsing and scraping data from ESPNcricinfo's detailed match and player statistics pages.
+Node.js: Used for parsing and scraping data from ESPNcricinfo's detailed match and player statistics pages.
 Data Cleaning: After scraping, the data was cleaned and structured for analysis. This included:
 
-Removing any missing or irrelevant data.
-Formatting statistics for use in Power BI.
+Removing any missing or irrelevant data in Power BI.
 Power BI Report
 The report is built in Power BI and offers an interactive dashboard for analyzing different player categories, such as:
 
