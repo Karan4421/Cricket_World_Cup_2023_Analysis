@@ -8,8 +8,7 @@ Web Scraping:
 Node.js: Used for parsing and scraping data from ESPNcricinfo's detailed match and player statistics pages.
 Data Cleaning: After scraping, the data was cleaned and structured for analysis. This included:
 
-Removing any missing or irrelevant data in Power BI.
-Power BI Report
+Removing any missing or irrelevant data, renaming headers all was done in Power BI.
 The report is built in Power BI and offers an interactive dashboard for analyzing different player categories, such as:
 
 Openers: Performance of top opening batsmen, showing their runs scored, strike rate, batting average, and boundary percentage.
