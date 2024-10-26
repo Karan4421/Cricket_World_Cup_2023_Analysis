@@ -1,11 +1,11 @@
 This repository contains a Power BI report analyzing player performance during the 2023 Cricket World Cup. The report provides insights into various aspects of the tournament, including top players, batting styles, strike rates, and more.
 
 Data Collection
-The data for this report was gathered from ESPNcricinfo using a combination of Node.js and Python for web scraping. I used the following steps to collect the data:
+The data for this report was gathered from ESPNcricinfo website using Node.js for web scraping. I used the following steps to collect the data:
 
 Web Scraping:
 
-Node.js: Used for parsing and scraping data from ESPNcricinfo's detailed match and player statistics pages.
+Node.js: Used for parsing and scraping data from ESPNcricinfo's detailed match and player statistics pages. The script uses **Axios** to fetch HTML content, **Cheerio** to parse and extract specific data from the webpage, and **csv-writer** to save the scraped data into a CSV file for easy analysis.
 Data Cleaning: After scraping, the data was cleaned and structured for analysis. This included:
 
 Removing any missing or irrelevant data, renaming headers all was done in Power BI.
